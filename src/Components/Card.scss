@@ -1,0 +1,98 @@
+@font-face {
+    font-family: neon;
+    src: url(../assets/Neodex.ttf);
+}
+
+$linear: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+$bg: #1a1a1a;
+$color-af: #ff00ff;
+$color-nd: #3700ff;
+$color-text: #adadad;
+
+.card {
+  width: 400px;
+  height: 500px;
+  background-image: $linear;
+  border-radius: 20px;
+  transition: all .3s;
+  border-radius: 16px;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  background-color: $bg;
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: $bg;
+  width: 300px;
+  height: 100px;
+  font-family: neon;
+}
+.af{
+    color:#adadad;
+    background-color: $linear;
+    background-color: $bg;
+    padding-right: 13px;
+}
+.nd{
+    color:#adadad;
+    background-color:$bg;
+    text-shadow: 0px 2px 6px rgba(255, 0, 255, 1),7px 7px 25px rgba(55, 0, 255, 1);
+}
+.af:hover{
+    color:$color-af;
+}
+.nd:hover{
+    color:$color-nd;
+}
+
+.pdp {
+  width: 350px;
+  height: 350px;
+  margin-top: -50px;
+  border-radius: 6px;
+}
+
+h2{
+    background-color: $bg;
+    font-size: 1.5em;
+    margin-top: 5px;
+    color: $color-text;
+    font-family: neon;
+    color: $color-text;
+}
+
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(157, 0, 255, 0.3);
+   }
+
+.btn{
+    margin-top: 5px;
+    width: 100px;
+    border-radius: 6px;
+    font-family: neon;
+    color: $color-text;
+    font-size: 1em;
+}
+.btn:hover{
+    box-shadow: 0px 0px 30px 1px rgba(157, 0, 255, 0.3);
+    color: $color-af;
+}

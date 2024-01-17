@@ -1,5 +1,8 @@
+
+import "../pages/Home.css"
+
 function Home() {
-    return <h1>Hello from Home</h1>;
+    return ;
   }
   
   export default Home;
